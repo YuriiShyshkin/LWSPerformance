@@ -11,7 +11,7 @@
 3. Make sure that toggle is checked("Lib" under the toggle).
 4. Opend DevTools -> Console and clear logs.
 5. Click "Choose Files" and select files from folder FilesToAttach.
-6. The page becomes unresponsive on 30-35 sec and the operation time in DevTools logs will be near 30-35 sec sec.
+6. The page becomes unresponsive on 35-40 sec and the operation time in DevTools logs will be near 35-40 sec.
 7. The operation time will be shown in DevTools logs.
  
 There is no page freezing when **LWS is disabled** and the operation time is less than 1 sec in DevTools logs.
