@@ -25,7 +25,7 @@ There is no page freezing when **LWS is disabled** and the operation time is les
 6. Click "Choose Files" and select any file.
 7. The page becomes unresponsive on 3 sec and in DevTools logs will bee meassage with time of operation.
 
-Repeat the steps with different values from **"Count of iterations"** picklist to see how increase operation time when increasing the **"Count of iterations"** value.
+Repeat the steps with different values from **"Count of iterations"** picklist to see how operation time increases when the **"Count of iterations"** value increases.
 
 The operation time in DevTools logs will be less in 3 times for each value from **"Count of iterations"** picklist when **LWS is disabled**.
 
