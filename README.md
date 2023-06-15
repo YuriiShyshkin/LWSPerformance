@@ -1,6 +1,7 @@
 # LWS Performance issue.
 
 ### Preconditions:
+* Ensure that an org has Summer'23 Salesforce Release.
 * Create static resource with JSZip.js file and name it "JSZip".
 * Create Aura component with files from LoadZipFiles folder.
 * Create Lightning Component Tab LoadZipFiles with created LoadZipFiles Aura Component.
