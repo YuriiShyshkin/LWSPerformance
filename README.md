@@ -1,6 +1,8 @@
 # LWS Performance issue.
 
-### Preconditions:
+We have detected the page performance issue when LWS enabled for Aura and LWC. The custom Aura component with simple JS code was created to reproduce the issue.
+
+## Preconditions:
 * Ensure that an org has Summer'23 Salesforce Release.
 * Create static resource with JSZip.js file and name it "JSZip".
 * Create Aura component with files from LoadZipFiles folder.
