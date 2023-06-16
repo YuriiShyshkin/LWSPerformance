@@ -13,7 +13,7 @@
 4. Opend DevTools -> Console and clear logs.
 5. Select in "Count of iterations" picklist the 1000000 value.
 6. Click "Run Custom Code" button.
-7. The page becomes unresponsive on 3-6 sec and in DevTools logs will bee meassage with time of operation.
+7. The page becomes unresponsive on 3-6 sec and in DevTools logs will be message with time of operation.
 
 Repeat the steps with different values from **"Count of iterations"** picklist to see how operation time increases when the **"Count of iterations"** value increases.
 
