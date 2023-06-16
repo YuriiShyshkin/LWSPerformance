@@ -1,5 +1,5 @@
 <aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
-	<ltng:require afterScriptsLoaded="{!c.afterScriptsLoaded}" 
+    <ltng:require afterScriptsLoaded="{!c.afterScriptsLoaded}" 
                   scripts="{!$Resource.JSZip}"
     />
     
@@ -15,22 +15,22 @@
                  messageToggleInactive="Custom Code" />
             
             <lightning:select aura:id="select" name="select" label="Count of iterations" required="true" class="toggle">
-        		<option value="1000">1000</option>
-        		<option value="10000">10000</option>
-        		<option value="100000">100000</option>
+                <option value="1000">1000</option>
+                <option value="10000">10000</option>
+                <option value="100000">100000</option>
                 <option value="1000000">1000000</option>
-    		</lightning:select>
+            </lightning:select>
             
             <div class="slds-form-element slds-m-top_xx-large slds-m-right_xx-large slds-m-bottom_medium slds-text-align_left">
                 <div aura:id="chooser" class="slds-form-element__control">
                         <div class="slds-m-bottom_medium slds-text-heading_small">
                             Choose Zip Files
                         </div>
-                        <input type="file" label="Choose Files" aura:id="files" id="files" onchange="{!c.validateFiles}" multiple="true"
+                        <input type="file" label="Choose Files" aura:id="files" id="files" onchange="{!c.runJs}" multiple="true"
                                accept="application/pdf, application/zip" class="files"/>
                 </div>
-        	</div>
-            <lightning:button aura:id="customCodeBtn" label="Run Custom Code" variant="brand" onclick="{!c.validateFiles}" class="slds-m-top--medium toggle"/>
+            </div>
+            <lightning:button aura:id="customCodeBtn" label="Run Custom Code" variant="brand" onclick="{!c.runJs}" class="slds-m-top--medium toggle"/>
     	</div>
     </div>
 </aura:component>
