@@ -1,6 +1,5 @@
 # LWS Performance issue.
-
-We have detected the page performance issue when LWS enabled for Aura and LWC. The custom Aura component with simple JS code was created to reproduce the issue.
+We have detected the page performance issue when LWS is enabled for Aura and LWC. The custom Aura component with simple JS code was created to reproduce the issue.
 
 ## Preconditions:
 * Ensure that an org has Summer'23 Salesforce Release.
