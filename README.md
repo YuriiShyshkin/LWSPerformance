@@ -6,7 +6,7 @@
 * Create Aura component with files from LoadZipFiles folder.
 * Create Lightning Component Tab LoadZipFiles with created LoadZipFiles Aura Component.
 
-### Steps to reproduce Custom logic issue:
+### Steps to reproduce Playing JS issue:
 1. Enable [LWS](https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.security_lwsec_enable).
 2. Open LoadZipFiles tab.
 3. Make sure that toggle is unchecked("Custom Code" under the toggle).
@@ -25,7 +25,7 @@ When LWS is enabled and "Count of iterations" is 1000000 the time of opeeration 
 
 When LWS is disabled and "Count of iterations" is 1000000 the time of opeeration is 1 sec
 
-### Steps to reproduce JSZip library issue:
+### Steps to reproduce the issue with JSZip library:
 1. Enable [LWS](https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.security_lwsec_enable).
 2. Open LoadZipFiles tab.
 3. Make sure that toggle is checked("Lib" under the toggle).
