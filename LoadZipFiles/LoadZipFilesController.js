@@ -29,6 +29,10 @@
     
     toogleInput : function(component, event, helper) {
         var picklist = component.find("select");
+        var customCodeBtn = component.find("customCodeBtn");
+        var chooser = component.find("chooser");
         $A.util.toggleClass(picklist, "toggle");
+        $A.util.toggleClass(customCodeBtn, "toggle");
+        $A.util.toggleClass(chooser, "toggle");
     },
 })

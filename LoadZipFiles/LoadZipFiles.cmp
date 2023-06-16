@@ -30,6 +30,7 @@
                                accept="application/pdf, application/zip" class="files"/>
                 </div>
         	</div>
+            <lightning:button aura:id="customCodeBtn" label="Run Custom Code" variant="brand" onclick="{!c.validateFiles}" class="slds-m-top--medium toggle"/>
     	</div>
     </div>
 </aura:component>
