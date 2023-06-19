@@ -10,7 +10,7 @@ We have detected the page performance issue when LWS is enabled for Aura and LWC
 ### Steps to reproduce Playing JS issue:
 1. Enable [LWS](https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.security_lwsec_enable).
 2. Open LoadZipFiles tab.
-3. Make sure that toggle is unchecked("Custom Code" under the toggle).
+3. Make sure that toggle is unchecked("Custom Code" should be written under the toggle).
 4. Opend DevTools -> Console and clear logs.
 5. Select in "Count of iterations" picklist the 1000000 value.
 6. Click "Run Custom Code" button.
@@ -22,14 +22,14 @@ The operation time in DevTools logs will be less in 3 times for each value from 
 
 **For example:**
 
-When LWS is enabled and "Count of iterations" is 1000000 the time of opeeration is 3 sec.
+When LWS is enabled and "Count of iterations" is 1000000 the time of operation is 3 sec.
 
-When LWS is disabled and "Count of iterations" is 1000000 the time of opeeration is 1 sec
+When LWS is disabled and "Count of iterations" is 1000000 the time of operation is 1 sec
 
 ### Steps to reproduce the issue with JSZip library:
 1. Enable [LWS](https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.security_lwsec_enable).
 2. Open LoadZipFiles tab.
-3. Make sure that toggle is checked("Lib" under the toggle).
+3. Make sure that toggle is checked("Lib" should be written under the toggle).
 4. Opend DevTools -> Console and clear logs.
 5. Click "Choose Files" and select files from folder FilesToAttach.
 6. The page becomes unresponsive on 35-40 sec and the operation time in DevTools logs will be near 35-40 sec.
