@@ -20,6 +20,8 @@ Repeat the steps with different values from **"Count of iterations"** picklist t
 
 The operation time in DevTools logs will be less in 3 times for each value from **"Count of iterations"** picklist when **LWS is disabled**.
 
+`JSON.stringify();` affects on the page performance.
+
 **For example:**
 
 When LWS is enabled and "Count of iterations" is 1000000 the time of operation is 3 sec.
